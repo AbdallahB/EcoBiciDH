@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right:
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#carouselPpal h1{
+  font-weight: bold;
+  text-shadow:  2px 2px rgba(0,0,0,0.7);
+  font-size: 60px;
+  background: rgba(64, 65, 66, 0.68);
+}
+
+#carouselPpal p{
+  font-weight: bold;
+  text-shadow:  2px 1px rgba(0,0,0,0.7);
+  font-size: 20px;
+  background: #00c3ffb3;
+}
+
+
+.productosDestacados{
+  text-align: center;
+  height: auto;
+}
+
+.productosDestacados h2{
+  font-family: Nunito;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  color:#25B0DE;
+  font-size: 40px;
+  shadow: grey;
+  text-shadow: 2px 2px #6460602e;
+
+}
+
+.cajaProducto{display: flex;
+  flex-direction: column-reverse;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  box-shadow: -8px 10px 6px #80808026;
+  margin-bottom: 15px;
+  margin-top: 15px;;
+}
+
+.cajaProducto img{
+  width: 100%;
+  height: auto;
+  }
+
+.nombreProducto {
+  color: #4A545E;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 6px;
+  font-family: Nunito;
+  }
+
+.verProducto:hover{
+  text-decoration: none;
+  color: #FA6720;
+}
+
+.verProducto{
+  text-transform: uppercase;
+  align-self: center;
+  border-radius: 20px !important;
+  background: #4fa4ffa6;
+  padding: 5px 20px;
+  color: white;
+  font-family: arial;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.065em;
+  font-weight: 700;
+
+}
+
+.comprar{
+  text-transform: uppercase;
+  align-self: center;
+  border-radius:20px;
+  background: #FA6720C7;
+  padding: 5px 20px;
+  color: white;
+  font-family: arial;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.065em;
+  font-weight: 700;
+
+}
+
+.comprar:hover{
+  text-decoration: none;
+  color: #4fa4ffa6;
+}
+
+
+
+.boton-agregar{
+  text-transform: uppercase;
+  align-self: center;
+  border-radius:20px;
+  border-style: none;
+  background: #FA6720C7;
+  padding: 5px 20px;
+  color: white;
+  font-family: arial;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.065em;
+  font-weight: 700;
+
+}
+
+.boton-agregar:hover{
+  text-decoration: none;
+  color: #4fa4ffa6;
+  background-color: #FA67208C;
+}
+
+
+
+.cont-botones{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex !important;
+  justify-content: space-around !important
+}
+
+.textoDestacado{
+    color: white;
+    padding-top: 20px;
+    margin: 10px 0;
+  }
+
+.textoDestacado h6, ul {
+    margin-left: 30px;
+    line-height: 30px;}
+
+.marcas{
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px 0;
+
+}
+.marcas img{
+  width: 23%;
+  height: auto;
+}
+
+/* MODAL */
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	}
+
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.close:hover { background: #00d9ff; }
+=======
+
+* {
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right:
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#carouselPpal h1{
+  font-weight: bold;
+  text-shadow:  2px 2px rgba(0,0,0,0.7);
+  font-size: 60px;
+  background: rgba(64, 65, 66, 0.68);
+}
+
+#carouselPpal p{
+  font-weight: bold;
+  text-shadow:  2px 1px rgba(0,0,0,0.7);
+  font-size: 20px;
+  background: #00c3ffb3;
+}
+
+  .listaProductos{
+    background: #4A545E;
+    height: auto;
+    padding-left: 5px;
+}
+
+#efectivo{
+  background: #4FA4FF;
+}
+
+.productosDestacados{
+  text-align: center;
+  height: auto;
+}
+
+.productosDestacados h2{
+  font-family: Montserrat, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #8CC4FF;
+  font-size: 33px;
+  letter-spacing: -0.043em;
+  -weight: 700;
+}
+
+.listabox div img{
+  /*height: 90%;*/
+  width: 100%;
+}
+
+.cajaProducto{display: flex;
+  flex-direction: column-reverse;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+
+}
+.cajaProducto img{
+  width: 100%;
+  }
+
+.nombreProducto {
+  color: #4A545E;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  font-family: arial;
+  }
+
+.verProducto:hover{
+  text-decoration: none;
+  color: #FA6720;
+}
+
+.verProducto{
+  text-transform: uppercase;
+  align-self: center;
+  display: inherit;
+  border-radius: 5px;
+  background: #4fa4ffa6;
+  padding: 5px 20px;
+  font-size: 12px;
+  color: white;
+  font-family: arial;}
+
+}
+
+.botones{
+  display:flex;
+  justify-content:space-around;
+}
+
+.textoDestacado{
+    color: white;
+    padding-top: 20px;
+    margin: 10px 0;
+  }
+
+.textoDestacado h6, ul {
+    margin-left: 30px;
+    line-height: 30px;}
+
+.marcas{
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px 0;
+
+}
+.marcas img{
+  width: 23%;
+  height: auto;
+}
+.paginate{
+display: flex;
+
+justify-content: center;
+}
+
+.cart{
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.275em;
+  font-weight: 200;
+}
+.cajaImagen{
+  display: flex;
+  justify-content: center;
+  margin-top: -80px;
+
+}
+
+ .avatarPerfil{
+  width: 30%;
+  border: solid 1px grey;
+  border-radius: 50%;
+ }
+
+ .carrito{
+   margin: 90px;
+ }
+
+ .form-carrito{
+   display: flex;
+   justify-content: center;
+ }
+
+.imagen-producto{
+  width: 80px;
+  height: auto;
+}
+
+.title-product{
+  text-transform: uppercase;
+}
+
+footer{
+
+bottom:0;
+}
